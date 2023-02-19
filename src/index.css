@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:checked ~ .checkmark{
+    background-color: rgb(57, 212, 127);
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #58585886;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #f0f0f0;
+    width: 2px;
+    border-radius: 50vh;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
